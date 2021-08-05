@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>UMDalContracts</AssemblyName>
+    <RootNamespace>UMDalContracts</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UMDTO\UMDTO.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  usermanwebapi:
+    image: ${DOCKER_REGISTRY-}usermanwebapi
+    build:
+      context: .
+      dockerfile: UserManWebApi/Dockerfile
